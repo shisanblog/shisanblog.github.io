@@ -20,24 +20,6 @@
   </url>
   
   <url>
-    <loc>https://www.github.com/box/animation/index.html</loc>
-    
-    <lastmod>2023-09-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.github.com/box/gallery/index.html</loc>
-    
-    <lastmod>2023-09-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.github.com/box/nav/index.html</loc>
     
     <lastmod>2023-09-18</lastmod>
@@ -129,6 +111,24 @@
   
   <url>
     <loc>https://www.github.com/social/link/index.html</loc>
+    
+    <lastmod>2023-09-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.github.com/box/animation/index.html</loc>
+    
+    <lastmod>2023-09-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.github.com/box/gallery/index.html</loc>
     
     <lastmod>2023-09-18</lastmod>
     

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.github.com/categories/index.html</loc>
+    <loc>https://www.github.com/tags/index.html</loc>
     
     <lastmod>2023-09-19</lastmod>
     
@@ -11,7 +11,61 @@
   </url>
   
   <url>
-    <loc>https://www.github.com/tags/index.html</loc>
+    <loc>https://www.github.com/personal/bb/index.html</loc>
+    
+    <lastmod>2023-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.github.com/personal/love/index.html</loc>
+    
+    <lastmod>2023-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.github.com/site/census/index.html</loc>
+    
+    <lastmod>2023-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.github.com/site/time/index.html</loc>
+    
+    <lastmod>2023-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.github.com/social/fcircle/index.html</loc>
+    
+    <lastmod>2023-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.github.com/social/link/index.html</loc>
+    
+    <lastmod>2023-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.github.com/categories/index.html</loc>
     
     <lastmod>2023-09-19</lastmod>
     
@@ -83,60 +137,6 @@
   </url>
   
   <url>
-    <loc>https://www.github.com/personal/bb/index.html</loc>
-    
-    <lastmod>2023-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.github.com/personal/love/index.html</loc>
-    
-    <lastmod>2023-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.github.com/site/census/index.html</loc>
-    
-    <lastmod>2023-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.github.com/site/time/index.html</loc>
-    
-    <lastmod>2023-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.github.com/social/fcircle/index.html</loc>
-    
-    <lastmod>2023-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.github.com/social/link/index.html</loc>
-    
-    <lastmod>2023-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.github.com/posts/ad20655.html</loc>
     
     <lastmod>2023-09-19</lastmod>
@@ -189,13 +189,6 @@
   </url>
   
   <url>
-    <loc>https://www.github.com/tags/test01/</loc>
-    <lastmod>2023-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.github.com/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -203,14 +196,7 @@
   </url>
   
   <url>
-    <loc>https://www.github.com/tags/%E9%80%86%E7%81%AB/</loc>
-    <lastmod>2023-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.github.com/tags/%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.github.com/tags/test01/</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -219,14 +205,14 @@
 
   
   <url>
-    <loc>https://www.github.com/categories/Excel/</loc>
+    <loc>https://www.github.com/categories/Markdown%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.github.com/categories/Markdown%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://www.github.com/categories/Excel/</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

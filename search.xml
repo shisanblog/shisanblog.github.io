@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>第三篇</title>
+      <link href="/posts/e6a2025.html"/>
+      <url>/posts/e6a2025.html</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: 这是第三篇测试的文章   # 这是标题,每个文章不可以有同样的标题<br>tags:</p><ul><li>Markdown             # 这是标签,可以有多个标签,需要对应<br>categories:</li><li>演示                # 这是分类,如果希望在主页吸力贴显示,需要对应config.yml小冰磁力贴<br>mathjax: true<br>description: ‘第三篇测试文章’<br>sticky: 2               # 是否置顶<br>swiper_index: 2         # 不知道干啥的<br>date: 2023-09-20 10:54:55<br>cover: <a href="https://picshack.net/ib/ngZOGeZY7a.png">https://picshack.net/ib/ngZOGeZY7a.png</a>   # 这是封面图<br>top_img: <a href="https://picshack.net/ib/ngZOGeZY7a.png">https://picshack.net/ib/ngZOGeZY7a.png</a>  # 这是文章顶部图片</li></ul><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 演示 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第二个测试</title>
       <link href="/posts/ad20655.html"/>
       <url>/posts/ad20655.html</url>

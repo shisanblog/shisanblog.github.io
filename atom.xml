@@ -6,7 +6,7 @@
   <link href="https://shisanblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://shisanblog.github.io/"/>
-  <updated>2023-09-19T20:48:56.536Z</updated>
+  <updated>2023-09-19T21:02:13.327Z</updated>
   <id>https://shisanblog.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>第三篇</title>
+    <link href="https://shisanblog.github.io/posts/e6a2025.html"/>
+    <id>https://shisanblog.github.io/posts/e6a2025.html</id>
+    <published>2023-09-20T04:58:07.000Z</published>
+    <updated>2023-09-19T21:02:13.327Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: 这是第三篇测试的文章   # 这是标题,每个文章不可以有同样的标题<br>tags:</p><ul><li>Markdown             # 这是标签,可以有多个标签,需要对应<br>categories:</li><li>演示                # 这是分类,如果希望在主页吸力贴显示,需要对应config.yml小冰磁力贴<br>mathjax: true<br>description: ‘第三篇测试文章’<br>sticky: 2               # 是否置顶<br>swiper_index: 2         # 不知道干啥的<br>date: 2023-09-20 10:54:55<br>cover: <a href="https://picshack.net/ib/ngZOGeZY7a.png">https://picshack.net/ib/ngZOGeZY7a.png</a>   # 这是封面图<br>top_img: <a href="https://picshack.net/ib/ngZOGeZY7a.png">https://picshack.net/ib/ngZOGeZY7a.png</a>  # 这是文章顶部图片</li></ul><hr>]]></content>
+    
+    
+    <summary type="html">第三篇测试文章</summary>
+    
+    
+    
+    <category term="演示" scheme="https://shisanblog.github.io/categories/%E6%BC%94%E7%A4%BA/"/>
+    
+    
+    <category term="Markdown" scheme="https://shisanblog.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>第二个测试</title>
     <link href="https://shisanblog.github.io/posts/ad20655.html"/>
     <id>https://shisanblog.github.io/posts/ad20655.html</id>
     <published>2023-09-19T06:02:17.000Z</published>
-    <updated>2023-09-19T20:48:56.536Z</updated>
+    <updated>2023-09-19T21:02:13.327Z</updated>
     
     <content type="html"><![CDATA[<h1>你大爷不是我大爷</h1><h2 id="我不是你大爷">我不是你大爷</h2><h3 id="你是来搞笑的吧">你是来搞笑的吧</h3><p>我不是你大爷<br>swiper_index: 2</p>]]></content>
     
@@ -50,7 +71,7 @@ swiper_index: 2&lt;/p&gt;
     <link href="https://shisanblog.github.io/posts/521a234c.html"/>
     <id>https://shisanblog.github.io/posts/521a234c.html</id>
     <published>2023-09-18T10:54:30.000Z</published>
-    <updated>2023-09-19T20:48:56.536Z</updated>
+    <updated>2023-09-19T21:02:13.327Z</updated>
     
     <content type="html"><![CDATA[<p>1556<br>33</p><h2 id="你大爷就是你大爷">你大爷就是你大爷</h2>]]></content>
     

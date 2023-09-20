@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>静态博客搭建备忘</title>
+      <link href="/posts/63246d14.html"/>
+      <url>/posts/63246d14.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="简易搭建Gridea">简易搭建Gridea</h2><h3 id="1-软件开源-Gridea">1.软件开源 <a href="https://github.com/getgridea/gridea">Gridea</a></h3><h3 id="2-使用主题开源主题-Fog">2. 使用主题开源主题 ==<a href="https://github.com/850552586/gridea-theme-fog">Fog</a>==</h3><h3 id="3-使用优缺点">3. 使用优缺点</h3><ul><li><p>软件使用便捷,部署简单,在软件中直接编辑好文章即可一键发布到github上</p></li><li><p>不支持直接打开.md文档</p></li><li><p>从typora复制源码到Gridea不可以直接被打开</p></li><li><p>文本样式渲染不够丰富</p></li></ul><h2 id="Markdown编辑软件Typora">Markdown编辑软件Typora</h2><h3 id="1-收费软件-使用“绿色版1-6-7”">1. 收费软件,使用“绿色版1.6.7”</h3><h3 id="2-使用开源主题-dyzh">2. 使用开源主题<a href="https://github.com/muggledy/typora-dyzj-theme">[dyzh]</a></h3><ul><li>使用简单，代码实时渲染，所见即所得</li><li>另一款主题可以直接完整生成HTML, <a href="https://github.com/MadMaxChow/VLOOK">[VLOOK]</a>,但此插件官方文档不符合给人习惯.</li></ul><h2 id="Hexo搭配butterfly主题搭建">Hexo搭配butterfly主题搭建</h2><h3 id="1-使用软件">1.使用软件:</h3><ul><li><emp>Git</emp></li><li><emp>TortoiseGit</emp>,Git的图形画软件,可以简明高效的管理版本,和发布</li></ul>  <div class="tag link"><a class="link-card" title="TortoiseGit" href="https://tortoisegit.org/"><div class="left"><img src="https://raw.githubusercontent.com/shisanblog/pic/main/230920/202309201031932.png"/></div><div class="right"><p class="text">TortoiseGit</p><p class="url">https://tortoisegit.org/</p></div></a></div><ul><li><emp>Picgo</emp>,高效的图片上传软件,可以直接将Typora中的</li></ul>  <div class="tag link"><a class="link-card" title="PicGo" href="https://github.com/Molunerfinn/PicGo"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">PicGo</p><p class="url">https://github.com/Molunerfinn/PicGo</p></div></a></div>  <div class="audio"><audio controls preload><source src='http://music.163.com/song/media/outer/url?id=1950343972.mp3' type='audio/mp3'>Your browser does not support the audio tag.</audio></div><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">emp</span> Picgo %&#125;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第三篇</title>
       <link href="/posts/e6a2025.html"/>
       <url>/posts/e6a2025.html</url>

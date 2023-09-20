@@ -6,7 +6,7 @@
   <link href="https://shisanblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://shisanblog.github.io/"/>
-  <updated>2023-09-20T03:01:16.323Z</updated>
+  <updated>2023-09-20T03:17:31.699Z</updated>
   <id>https://shisanblog.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://shisanblog.github.io/posts/63246d14.html"/>
     <id>https://shisanblog.github.io/posts/63246d14.html</id>
     <published>2023-09-20T09:58:57.000Z</published>
-    <updated>2023-09-20T03:01:16.323Z</updated>
+    <updated>2023-09-20T03:17:31.699Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="简易搭建Gridea">简易搭建Gridea</h2><h3 id="1-软件开源-Gridea">1.软件开源 <a href="https://github.com/getgridea/gridea">Gridea</a></h3><h3 id="2-使用主题开源主题-Fog">2. 使用主题开源主题 ==<a href="https://github.com/850552586/gridea-theme-fog">Fog</a>==</h3><h3 id="3-使用优缺点">3. 使用优缺点</h3><ul><li><p>软件使用便捷,部署简单,在软件中直接编辑好文章即可一键发布到github上</p></li><li><p>不支持直接打开.md文档</p></li><li><p>从typora复制源码到Gridea不可以直接被打开</p></li><li><p>文本样式渲染不够丰富</p></li></ul><h2 id="Markdown编辑软件Typora">Markdown编辑软件Typora</h2><h3 id="1-收费软件-使用“绿色版1-6-7”">1. 收费软件,使用“绿色版1.6.7”</h3><h3 id="2-使用开源主题-dyzh">2. 使用开源主题<a href="https://github.com/muggledy/typora-dyzj-theme">[dyzh]</a></h3><ul><li>使用简单，代码实时渲染，所见即所得</li><li>另一款主题可以直接完整生成HTML, <a href="https://github.com/MadMaxChow/VLOOK">[VLOOK]</a>,但此插件官方文档不符合给人习惯.</li></ul><h2 id="Hexo搭配butterfly主题搭建">Hexo搭配butterfly主题搭建</h2><h3 id="1-使用软件">1.使用软件:</h3><ul><li><emp>Git</emp></li><li><emp>TortoiseGit</emp>,Git的图形画软件,可以简明高效的管理版本,和发布</li></ul>  <div class="tag link"><a class="link-card" title="TortoiseGit" href="https://tortoisegit.org/"><div class="left"><img src="https://raw.githubusercontent.com/shisanblog/pic/main/230920/202309201031932.png"/></div><div class="right"><p class="text">TortoiseGit</p><p class="url">https://tortoisegit.org/</p></div></a></div><ul><li><emp>Picgo</emp>,高效的图片上传软件,可以直接将Typora中的</li></ul>  <div class="tag link"><a class="link-card" title="PicGo" href="https://github.com/Molunerfinn/PicGo"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">PicGo</p><p class="url">https://github.com/Molunerfinn/PicGo</p></div></a></div>  <div class="audio"><audio controls preload><source src='http://music.163.com/song/media/outer/url?id=1950343972.mp3' type='audio/mp3'>Your browser does not support the audio tag.</audio></div><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">emp</span> Picgo %&#125;</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="简易搭建Gridea">简易搭建Gridea</h2><h3 id="1-软件开源-Gridea">1.软件开源 <a href="https://github.com/getgridea/gridea">Gridea</a></h3><h3 id="2-使用主题开源主题-Fog">2. 使用主题开源主题 ==<a href="https://github.com/850552586/gridea-theme-fog">Fog</a>==</h3><h3 id="3-使用优缺点">3. 使用优缺点</h3><ul><li><p>软件使用便捷,部署简单,在软件中直接编辑好文章即可一键发布到github上</p></li><li><p>不支持直接打开.md文档</p></li><li><p>从typora复制源码到Gridea不可以直接被打开</p></li><li><p>文本样式渲染不够丰富</p></li></ul><h2 id="Markdown编辑软件Typora">Markdown编辑软件Typora</h2><h3 id="1-收费软件-使用“绿色版1-6-7”">1. 收费软件,使用“绿色版1.6.7”</h3><h3 id="2-使用开源主题-dyzh">2. 使用开源主题<a href="https://github.com/muggledy/typora-dyzj-theme">[dyzh]</a></h3><ul><li>使用简单，代码实时渲染，所见即所得</li><li>另一款主题可以直接完整生成HTML, <a href="https://github.com/MadMaxChow/VLOOK">[VLOOK]</a>,但此插件官方文档不符合给人习惯.</li></ul><h2 id="Hexo搭配butterfly主题搭建">Hexo搭配butterfly主题搭建</h2><h3 id="1-使用软件">1.使用软件:</h3><ul><li><emp>Git</emp></li><li><emp>TortoiseGit</emp>,Git的图形画软件,可以简明高效的管理版本,和发布</li></ul>  <div class="tag link"><a class="link-card" title="TortoiseGit" href="https://tortoisegit.org/"><div class="left"><img src="https://raw.githubusercontent.com/shisanblog/pic/main/230920/202309201031932.png"/></div><div class="right"><p class="text">TortoiseGit</p><p class="url">https://tortoisegit.org/</p></div></a></div><ul><li><emp>Picgo</emp>,高效的图片上传软件,可以直接将Typora中的</li></ul>  <div class="tag link"><a class="link-card" title="PicGo" href="https://github.com/Molunerfinn/PicGo"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">PicGo</p><p class="url">https://github.com/Molunerfinn/PicGo</p></div></a></div><h3 id="搭建教程">搭建教程</h3><div class="tabs" id="主题"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#主题-1">-->**[官网](https://github.com/fomalhaut1998/hexo-theme-Fomalhaut)**<!-- endtab</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="主题-1"><!-- tab -->**[博客](https://www.fomal.cc/)**<button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="Git提交">Git提交</h2><ul><li><p>在vscode中可以直接提交,只需要有Git环境,无需额外软件</p></li><li><p>可以在博客目录使用TortoiseGit提交</p><div class="audio"><audio controls preload><source src='http://music.163.com/song/media/outer/url?id=1950343972.mp3' type='audio/mp3'>Your browser does not support the audio tag.</audio></div></li></ul><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">emp</span> Picgo %&#125;</span></span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">搭建博客所使用的教程备忘</summary>
@@ -42,7 +42,7 @@
     <link href="https://shisanblog.github.io/posts/e6a2025.html"/>
     <id>https://shisanblog.github.io/posts/e6a2025.html</id>
     <published>2023-09-20T04:58:07.000Z</published>
-    <updated>2023-09-20T03:01:16.323Z</updated>
+    <updated>2023-09-20T03:17:31.699Z</updated>
     
     <content type="html"><![CDATA[<hr><p>title: 这是第三篇测试的文章   # 这是标题,每个文章不可以有同样的标题<br>tags:</p><ul><li>Markdown             # 这是标签,可以有多个标签,需要对应<br>categories:</li><li>演示                # 这是分类,如果希望在主页吸力贴显示,需要对应config.yml小冰磁力贴<br>mathjax: true<br>description: ‘第三篇测试文章’<br>sticky: 2               # 是否置顶<br>swiper_index: 2         # 不知道干啥的<br>date: 2023-09-20 10:54:55<br>cover: <a href="https://picshack.net/ib/ngZOGeZY7a.png">https://picshack.net/ib/ngZOGeZY7a.png</a>   # 这是封面图<br>top_img: <a href="https://picshack.net/ib/ngZOGeZY7a.png">https://picshack.net/ib/ngZOGeZY7a.png</a>  # 这是文章顶部图片</li></ul><hr>]]></content>
     
@@ -63,7 +63,7 @@
     <link href="https://shisanblog.github.io/posts/ad20655.html"/>
     <id>https://shisanblog.github.io/posts/ad20655.html</id>
     <published>2023-09-19T06:02:17.000Z</published>
-    <updated>2023-09-20T03:01:16.323Z</updated>
+    <updated>2023-09-20T03:17:31.699Z</updated>
     
     <content type="html"><![CDATA[<h1>你大爷不是我大爷</h1><h2 id="我不是你大爷">我不是你大爷</h2><h3 id="你是来搞笑的吧">你是来搞笑的吧</h3><p>我不是你大爷<br>swiper_index: 2</p>]]></content>
     
@@ -92,7 +92,7 @@ swiper_index: 2&lt;/p&gt;
     <link href="https://shisanblog.github.io/posts/521a234c.html"/>
     <id>https://shisanblog.github.io/posts/521a234c.html</id>
     <published>2023-09-18T10:54:30.000Z</published>
-    <updated>2023-09-20T03:01:16.323Z</updated>
+    <updated>2023-09-20T03:17:31.699Z</updated>
     
     <content type="html"><![CDATA[<p>1556<br>33</p><h2 id="你大爷就是你大爷">你大爷就是你大爷</h2>]]></content>
     

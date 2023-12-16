@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>ventoy启动盘制作教程</title>
+      <link href="/posts/23121703.html"/>
+      <url>/posts/23121703.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、安装">一、安装</h2><ol><li><a href="https://www.ventoy.net/cn/download.html">官网下载</a></li><li><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2310/202311010335222.png" alt="image.png"></li><li>配置尽量选择mbr，尽量不选择安全启动</li><li></li></ol><p><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2310/202311010337430.png" alt="image.png"></p><h2 id="二、个性化配置">二、个性化配置</h2><ol><li><p><strong>全局控制</strong><br><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2310/202311010342766.png" alt="image.png"></p></li><li><p><strong>文件夹菜单配置</strong><br><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2310/202311010345723.png" alt="image.png"></p></li><li><p><strong>主题设置</strong><br><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2310/202311010349085.png" alt="image.png"></p></li></ol><p>三、隐藏文件夹</p><blockquote><p>在文件夹下建立一个txt文件，并从命名为 <font color="#ffc000">.ventoyignore</font></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件教程 </tag>
+            
+            <tag> 系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Typro配置YAML并发布到HEXO</title>
       <link href="/posts/2023121701.html"/>
       <url>/posts/2023121701.html</url>
@@ -15,7 +42,7 @@
           
           <category> 软件教程 </category>
           
-          <category> 博客搭建 </category>
+          <category> 网站搭建 </category>
           
       </categories>
       
@@ -32,15 +59,15 @@
     
     <entry>
       <title>微软拼音添加小鹤双拼</title>
-      <link href="/posts/121702.html"/>
-      <url>/posts/121702.html</url>
+      <link href="/posts/23121702.html"/>
+      <url>/posts/23121702.html</url>
       
-        <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/shisanblog/pic/main/230920/202309201241063.jpg" alt=""></p><h3 id="方法1：">方法1：</h3><ol start="2"><li>按windows+r键，输入regedit。 在注册表编辑器上方输入</li><li>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS。</li><li>新建字符串值， 命名为： UserDefinedDoublePinyinScheme0。</li><li>值改成 小鹤双拼<em>2</em>^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt</li><li>右击右下角“中”字，点击设置，在常规中改为小鹤双拼。</li></ol><h3 id="方法2：-✅"><strong>方法2：</strong> ✅</h3><p>cmd输入</p><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg <span class="keyword">add</span><span class="language-bash"> HKCU\Software\Microsoft\InputMethod\Settings\CHS /v UserDefinedDoublePinyinScheme0 /t REG_SZ /d <span class="string">&quot;小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt&quot;</span> /f</span></span><br></pre></td></tr></table></figure><hr><p>视频教程</p><div style="position: relative; padding: 30% 45%;">    <iframe style="        position: absolute;         width: 100%;         height: 100%;         left: 0; top: 0;"         src="//player.bilibili.com/player.html?aid=948647526&bvid=BV1Es4y1x7LT&cid=989911443&p=1&autoplay=0&high_quality=1"         scrolling="no"         border="0"         frameborder="no"         framespacing="0"         allowfullscreen="true">    </iframe></div><iframe src="//player.bilibili.com/player.html?aid=948647526&bvid=BV1Es4y1x7LT&cid=989911443&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/shisanblog/pic/main/230920/202309201241063.jpg" alt=""></p><h3 id="方法1：">方法1：</h3><ol start="2"><li>按windows+r键，输入regedit。 在注册表编辑器上方输入</li><li>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS。</li><li>新建字符串值， 命名为： UserDefinedDoublePinyinScheme0。</li><li>值改成 小鹤双拼<em>2</em>^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt</li><li>右击右下角“中”字，点击设置，在常规中改为小鹤双拼。</li></ol><h3 id="方法2：-✅"><strong>方法2：</strong> ✅</h3><p>cmd输入</p><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg <span class="keyword">add</span><span class="language-bash"> HKCU\Software\Microsoft\InputMethod\Settings\CHS /v UserDefinedDoublePinyinScheme0 /t REG_SZ /d <span class="string">&quot;小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt&quot;</span> /f</span></span><br></pre></td></tr></table></figure><hr><p>视频教程</p><div style="position: relative; padding: 30% 45%;">    <iframe style="        position: absolute;         width: 100%;         height: 100%;         left: 0; top: 0;"         src="//player.bilibili.com/player.html?aid=948647526&bvid=BV1Es4y1x7LT&cid=989911443&p=1&autoplay=0&high_quality=1"         scrolling="no"         border="0"         frameborder="no"         framespacing="0"         allowfullscreen="true">    </iframe></div>]]></content>
       
       
       <categories>
           
-          <category> 软件使用教程 </category>
+          <category> 软件教程 </category>
           
       </categories>
       
@@ -48,6 +75,37 @@
         <tags>
             
             <tag> 软件教程 </tag>
+            
+            <tag> 效率办公 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>🍀Picgo+Github搭建图床</title>
+      <link href="/posts/23121704.html"/>
+      <url>/posts/23121704.html</url>
+      
+        <content type="html"><![CDATA[<p>🥝利用picgo自动上传图片到Github仓库  #工具/笔记/picgo  #工具/笔记/图床</p><h2 id="一-软件下载安装">一. 软件下载安装</h2><ul><li><a href="https://github.com/Molunerfinn/PicGo">picgo下载地址</a></li></ul><h2 id="二-picgo中配置Github">二.picgo中配置Github</h2><h3 id="1-创建Github仓库并设置一个token">1 .创建Github仓库并设置一个token</h3><h3 id="2-picgo设置Github图床">2.picgo设置Github图床</h3><p><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2309/202309251344058.png" alt="image.png"></p><blockquote><p>仓库名:Github用户名+仓库名<br>储存路径:设置后会在Github仓库中创建相应的文件夹<br>自定义域名:cdn加速</p><blockquote><p><a href="https://cdn.jsdelivr.net/gh/Github%E7%94%A8%E6%88%B7%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D@%E5%88%86%E6%94%AF/">https://cdn.jsdelivr.net/gh/Github用户名/仓库名@分支/</a></p></blockquote></blockquote><h3 id="3-Typora设置图片自动上传">3.Typora设置图片自动上传</h3><p><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2309/202309251412368.png" alt="image.png"></p><h3 id="4-Obsidian设置图片自动上传">4.Obsidian设置图片自动上传</h3><p><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2309/202309251414607.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件教程 </category>
+          
+          <category> 网站搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件教程 </tag>
+            
+            <tag> 博客搭建 </tag>
             
         </tags>
       

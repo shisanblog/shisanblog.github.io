@@ -4,7 +4,34 @@
   
     
     <entry>
-      <title>日常使用Markdown语法摘录</title>
+      <title>Typro配置YAML并发布到HEXO</title>
+      <link href="/posts/2023121701.html"/>
+      <url>/posts/2023121701.html</url>
+      
+        <content type="html"><![CDATA[<h1>用Typro写好文章，并在顶部添加YAML</h1><h2 id="1、文章最顶一行写三个“-”号，就会出现yaml">1、文章最顶一行写三个“-”号，就会出现yaml</h2><p><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2311/202312170254834.png" alt="00"></p><h2 id="2、YAML配置">2、YAML配置</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">这是一个测试文章</span>   <span class="comment"># 这是标题,每个文章不可以有同样的标题</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">Markdown</span>            <span class="comment"># 这是标签,可以有多个标签,需要对应</span></span><br><span class="line"><span class="attr">categories:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">Excel</span>               <span class="comment"># 这是分类,如果希望在主页吸力贴显示,需要对应config.yml小冰磁力贴</span></span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">description:</span>            <span class="comment"># &#x27;这是文章的摘要,也就是标题下面的文&#x27;</span></span><br><span class="line"><span class="attr">sticky:</span> <span class="number">2</span>               <span class="comment"># 是否置顶</span></span><br><span class="line"><span class="attr">swiper_index:</span> <span class="number">2</span>         <span class="comment"># 不知道干啥的</span></span><br><span class="line"><span class="attr">abbrlink:</span> <span class="string">521a234c</span>      <span class="comment"># 文章&quot;链接编号&quot;hexo g自动生成,写作时删除</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2023-09-18 10:54:30</span>   <span class="comment">#文章日期</span></span><br><span class="line"><span class="attr">cover:</span> <span class="string">https://picshack.net/ib/ngZOGeZY7a.png</span>   <span class="comment"># 这是封面图</span></span><br><span class="line"><span class="attr">top_img:</span> <span class="string">https://picshack.net/ib/ngZOGeZY7a.png</span>  <span class="comment"># 这是文章顶部图片</span></span><br></pre></td></tr></table></figure><h3 id="1、必须项">1、必须项</h3><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">abbrlink:&#x27;<span class="number">20231217</span>&#x27;</span><br></pre></td></tr></table></figure><blockquote><p>abbrlink值可以自己填写，必须使用英文单引号包裹,注意中间有空格</p></blockquote><p>注意：==abbrlbnk值不可重复==</p><h3 id="2、其他项可以选填，下面是注意事项">2、其他项可以选填，下面是注意事项</h3><ol><li>tags：可以随意设置</li><li>categories: 可以随意填写，建议根据磁力贴归类</li><li>description: 文章摘要，如果不填写，会自动取文章前面的文字展现</li><li>date：文章日期，不能自动生成，需要手动修改</li><li>cover:封面图，如果不填写，默认使用config文件里的图</li><li>top_img:文章顶部图</li></ol><h2 id="3、写好YAML后，将md文件放入HEXO的文章目录中">3、写好YAML后，将md文件放入HEXO的文章目录中</h2><blockquote><p>注意：文章中的图片需要提前上传</p></blockquote><h2 id="4、hexo本地部署基本命令">4、hexo本地部署基本命令</h2><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#hexo之一键三连</span></span><br><span class="line">hexo clean<span class="meta">#清理缓存</span></span><br><span class="line">hexo g<span class="meta">#生成博客</span></span><br><span class="line">hexo s<span class="meta">#启动博客，在本地http:<span class="comment">//localhost:4000/可以预览</span></span></span><br></pre></td></tr></table></figure><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">&quot;你的博客文章名&quot;</span></span><br><span class="line">hexo d<span class="meta">#远程同步到服务器</span></span><br></pre></td></tr></table></figure><h2 id="5、提交文章到GitHub">5、提交文章到GitHub</h2><h3 id="1、使用vscode提交">1、使用vscode提交</h3><p><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2311/202312170310266.png" alt="image-20231217031024655"></p><h3 id="2、使用git提交">2、使用git提交</h3><p><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2311/202312170308778.png" alt="image-20231217030834204"></p><p><img src="https://cdn.jsdelivr.net/gh/shisanblog/pic@main//picture/2311/202312170332386.png" alt="image-20231217033158188"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件教程 </category>
+          
+          <category> 博客搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【日常使用】的Markdown语法摘录</title>
       <link href="/posts/2559ec2a.html"/>
       <url>/posts/2559ec2a.html</url>
       
@@ -41,81 +68,6 @@
       <categories>
           
           <category> Markdown学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第三篇</title>
-      <link href="/posts/e6a2025.html"/>
-      <url>/posts/e6a2025.html</url>
-      
-        <content type="html"><![CDATA[<hr><p>title: 这是第三篇测试的文章   # 这是标题,每个文章不可以有同样的标题<br>tags:</p><ul><li>Markdown             # 这是标签,可以有多个标签,需要对应<br>categories:</li><li>演示                # 这是分类,如果希望在主页吸力贴显示,需要对应config.yml小冰磁力贴<br>mathjax: true<br>description: ‘第三篇测试文章’<br>sticky: 2               # 是否置顶<br>swiper_index: 2         # 不知道干啥的<br>date: 2023-09-20 10:54:55<br>cover: <a href="https://picshack.net/ib/ngZOGeZY7a.png">https://picshack.net/ib/ngZOGeZY7a.png</a>   # 这是封面图<br>top_img: <a href="https://picshack.net/ib/ngZOGeZY7a.png">https://picshack.net/ib/ngZOGeZY7a.png</a>  # 这是文章顶部图片</li></ul><hr>]]></content>
-      
-      
-      <categories>
-          
-          <category> 演示 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第二个测试</title>
-      <link href="/posts/ad20655.html"/>
-      <url>/posts/ad20655.html</url>
-      
-        <content type="html"><![CDATA[<h1>你大爷不是我大爷</h1><h2 id="我不是你大爷">我不是你大爷</h2><h3 id="你是来搞笑的吧">你是来搞笑的吧</h3><h2 id="视频">视频</h2><blockquote><p>Typora主题格式</p></blockquote><iframe height="520" scrolling='no' title='Fancy Animated SVG Menu' src='//player.bilibili.com/player.html?aid=633622827&bvid=BV1fb4y187r9&cid=424484231&p=1&autoplay=0&high_quality=1' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jeangontijo/pen/OxVywj/'>Fancy Animated SVG Menu</a> by Jean Gontijo (<a href='https://codepen.io/jeangontijo'>@jeangontijo</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>   <blockquote><p>Gridea格式</p></blockquote><div style="position: relative; padding: 30% 45%;">    <iframe style="        position: absolute;         width: 100%;         height: 100%;         left: 0; top: 0;"         src="//player.bilibili.com/player.html?aid=660644023&bvid=BV1Sh4y1e7DC&cid=1260573012&p=1&autoplay=0"         scrolling="no"         border="0"         frameborder="no"         framespacing="0"         allowfullscreen="true">    </iframe></div><blockquote><p>Hexo格式</p></blockquote><div style="position: relative; padding: 30% 45%;">    <iframe style="        position: absolute;         width: 100%;         height: 100%;         left: 0; top: 0;"         src="//player.bilibili.com/player.html?aid=660644023&bvid=BV1Sh4y1e7DC&cid=1260573012&p=1&autoplay=0"         scrolling="no"         border="0"         frameborder="no"         framespacing="0"         allowfullscreen="true">    </iframe></div><blockquote><p>Hexo格式多行</p></blockquote><div class="videos" col='2'><div class="video"><video controls preload><source src='//player.bilibili.com/player.html?aid=633622827&bvid=BV1fb4y187r9&cid=424484231&p=1&high_quality=1&autoplay=0' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov' type='video/mp4'>Your browser does not support the video tag.</video></div></div><iframe src="//player.bilibili.com/player.html?aid=660644023&bvid=BV1Sh4y1e7DC&cid=1260573012&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      
-      
-      <categories>
-          
-          <category> 魔改教程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>这是一个测试文章</title>
-      <link href="/posts/521a234c.html"/>
-      <url>/posts/521a234c.html</url>
-      
-        <content type="html"><![CDATA[<p>1556<br>33</p><h2 id="你大爷就是你大爷">你大爷就是你大爷</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> Excel </category>
           
       </categories>
       

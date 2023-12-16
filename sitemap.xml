@@ -11,6 +11,42 @@
   </url>
   
   <url>
+    <loc>https://shisanblog.github.io/categories/index.html</loc>
+    
+    <lastmod>2023-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shisanblog.github.io/box/animation/index.html</loc>
+    
+    <lastmod>2023-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shisanblog.github.io/box/gallery/index.html</loc>
+    
+    <lastmod>2023-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shisanblog.github.io/box/nav/index.html</loc>
+    
+    <lastmod>2023-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shisanblog.github.io/life/games/index.html</loc>
     
     <lastmod>2023-12-16</lastmod>
@@ -101,42 +137,6 @@
   </url>
   
   <url>
-    <loc>https://shisanblog.github.io/categories/index.html</loc>
-    
-    <lastmod>2023-12-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shisanblog.github.io/box/animation/index.html</loc>
-    
-    <lastmod>2023-12-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shisanblog.github.io/box/gallery/index.html</loc>
-    
-    <lastmod>2023-12-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shisanblog.github.io/box/nav/index.html</loc>
-    
-    <lastmod>2023-12-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shisanblog.github.io/posts/2559ec2a.html</loc>
     
     <lastmod>2023-12-16</lastmod>
@@ -156,6 +156,15 @@
   
   <url>
     <loc>https://shisanblog.github.io/posts/2023121701.html</loc>
+    
+    <lastmod>2023-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shisanblog.github.io/posts/121702.html</loc>
     
     <lastmod>2023-12-16</lastmod>
     
@@ -204,6 +213,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://shisanblog.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -229,6 +245,13 @@
   
   <url>
     <loc>https://shisanblog.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shisanblog.github.io/categories/%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

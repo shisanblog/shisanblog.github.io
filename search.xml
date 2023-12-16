@@ -31,6 +31,31 @@
     
     
     <entry>
+      <title>微软拼音添加小鹤双拼</title>
+      <link href="/posts/121702.html"/>
+      <url>/posts/121702.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/shisanblog/pic/main/230920/202309201241063.jpg" alt=""></p><h3 id="方法1：">方法1：</h3><ol start="2"><li>按windows+r键，输入regedit。 在注册表编辑器上方输入</li><li>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS。</li><li>新建字符串值， 命名为： UserDefinedDoublePinyinScheme0。</li><li>值改成 小鹤双拼<em>2</em>^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt</li><li>右击右下角“中”字，点击设置，在常规中改为小鹤双拼。</li></ol><h3 id="方法2：-✅"><strong>方法2：</strong> ✅</h3><p>cmd输入</p><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg <span class="keyword">add</span><span class="language-bash"> HKCU\Software\Microsoft\InputMethod\Settings\CHS /v UserDefinedDoublePinyinScheme0 /t REG_SZ /d <span class="string">&quot;小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt&quot;</span> /f</span></span><br></pre></td></tr></table></figure><hr><p>视频教程</p><div style="position: relative; padding: 30% 45%;">    <iframe style="        position: absolute;         width: 100%;         height: 100%;         left: 0; top: 0;"         src="//player.bilibili.com/player.html?aid=948647526&bvid=BV1Es4y1x7LT&cid=989911443&p=1&autoplay=0&high_quality=1"         scrolling="no"         border="0"         frameborder="no"         framespacing="0"         allowfullscreen="true">    </iframe></div><iframe src="//player.bilibili.com/player.html?aid=948647526&bvid=BV1Es4y1x7LT&cid=989911443&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件使用教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【日常使用】的Markdown语法摘录</title>
       <link href="/posts/2559ec2a.html"/>
       <url>/posts/2559ec2a.html</url>
